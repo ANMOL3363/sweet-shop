@@ -42,3 +42,17 @@ git clone <your-repo-link>
 cd backend
 npm install
 node src/server.js
+
+
+---
+
+##  Author & Contact
+
+**Anmol Kumar**  
+B.Tech – Electronics & Communication Engineering  
+📧 Email: anmolkumar4122002@gmail.com 
+
+THANK YOU
+ 
+
+

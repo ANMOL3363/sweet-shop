@@ -31,6 +31,10 @@ A full-stack Sweet Shop Management System backend that supports user authenticat
 - POST `/api/sweets/:id/restock` (Admin)
 - DELETE `/api/sweets/:id` (Admin)
 
+AI USAGE
+- I used AI as a productivity and learning tool — mainly to understand architecture patterns, debug errors faster, and generate boilerplate.
+I always verified and modified the logic myself, and all integration decisions were mine.
+
 ## ▶️ How to Run Locally
 
 ```bash

@@ -32,8 +32,8 @@ A full-stack Sweet Shop Management System backend that supports user authenticat
 - DELETE `/api/sweets/:id` (Admin)
 
 AI USAGE
-- I used AI as a productivity and learning tool — mainly to understand architecture patterns, debug errors faster, and generate boilerplate.
-I always verified and modified the logic myself, and all integration decisions were mine.
+- I used AI (CHATGPT) as a productivity and learning tool — mainly to understand architecture patterns, debug errors faster, and generate boilerplate.
+I always verified and modified the logic by myself, and all integration decisions were mine.
 
 ## ▶️ How to Run Locally
 

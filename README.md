@@ -44,11 +44,8 @@ A full-stack web application designed to manage a sweet shop’s inventory with 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-### Out of Stock Handling
-![Out of Stock](screenshots/out-of-stock.png)
-
 ### Database (MongoDB)
-![MongoDB](screenshots/mongodb.png)
+![Mongo](screenshots/mongodb.png)
 
 
  ##  Author & Contact

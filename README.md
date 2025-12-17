@@ -48,8 +48,8 @@ A full-stack web application designed to manage a sweet shop’s inventory with 
 ![Mongo](screenshots/mongodb.png)
 
 
+ 
  ##  Author & Contact
-
 **Anmol Kumar**  
 B.Tech – Electronics & Communication Engineering  
 📧 Email: anmolkumar4122002@gmail.com 

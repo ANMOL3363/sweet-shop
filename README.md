@@ -31,6 +31,18 @@ A full-stack Sweet Shop Management System backend that supports user authenticat
 - POST `/api/sweets/:id/restock` (Admin)
 - DELETE `/api/sweets/:id` (Admin)
 
+AI USAGE
+- I used AI (CHATGPT) as a productivity and learning tool — mainly to understand architecture patterns, debug errors faster, and generate boilerplate.
+I always verified and modified the logic by myself, and all integration decisions were mine.
+
+
+##  Author & Contact
+
+**Anmol Kumar**  
+B.Tech – Electronics & Communication Engineering  
+📧 Email: anmolkumar4122002@gmail.com 
+
+
 ## ▶️ How to Run Locally
 
 ```bash
@@ -38,3 +50,17 @@ git clone <your-repo-link>
 cd backend
 npm install
 node src/server.js
+
+
+---
+
+##  Author & Contact
+
+**Anmol Kumar**  
+B.Tech – Electronics & Communication Engineering  
+📧 Email: anmolkumar4122002@gmail.com 
+
+THANK YOU
+ 
+
+

@@ -28,12 +28,10 @@ exports.register = async (req, res) => {
 };
 
 
-// Login user
 exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
-
-    // Check if user exists
+    
     const user = await User.findOne({ email });
     if (!user) {
       return res.status(400).json({ message: 'Invalid email or password' });

@@ -49,11 +49,12 @@ A full-stack web application designed to manage a sweet shop’s inventory with 
 
 
  
- ##  Author & Contact
+ ## Author & Contact
+ 
 **Anmol Kumar**  
 B.Tech – Electronics & Communication Engineering  
 📧 Email: anmolkumar4122002@gmail.com 
----
+
 
 ## ▶️ How to Run the Project Locally
 

@@ -1,23 +1,30 @@
 
-const express = require('express');
+const express = require("express");
+const cors = require("cors");
+require("dotenv").config();
 
-const cors = require('cors');
+const connectDB = require("./db");
 
-require('./db'); 
+const authRoutes = require("./routes/auth.routes");
+const sweetRoutes = require("./routes/sweet.routes");
 
 const app = express();
 
+// middleware
 app.use(cors());
-
 app.use(express.json());
 
-const authRoutes = require('./routes/auth.routes');
-const sweetRoutes = require('./routes/sweet.routes');
-app.use('/api/auth', authRoutes);
-app.use('/api/sweets', sweetRoutes);
+// connect database
+connectDB();
 
-app.get('/', (req, res) => {
-  res.send('Sweet Shop Backend is running');
+// routes
+app.use("/api/auth", authRoutes);
+app.use("/api/sweets", sweetRoutes);
+
+// test route
+app.get("/", (req, res) => {
+  res.send("Sweet Shop Backend API running 🚀");
 });
 
 module.exports = app;
+

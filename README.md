@@ -1,66 +1,66 @@
+
 # Sweet Shop Management System
 
-## 📌 Project Overview
-A full-stack Sweet Shop Management System backend that supports user authentication, role-based access control, inventory management, and secure APIs.
-
-## 🛠️ Tech Stack
-- Backend: Node.js, Express
-- Database: MongoDB
-- Authentication: JWT
-- Tools: Postman, MongoDB Compass
-
-## ✨ Features
-- User Registration & Login
-- JWT-based Authentication
-- Role-based Authorization (Admin/User)
-- Add, View, Search Sweets
-- Purchase & Restock Sweets
-- Admin-only Delete Sweet
-
-## 🔐 API Endpoints
-
-### Auth
-- POST `/api/auth/register`
-- POST `/api/auth/login`
-
-### Sweets (Protected)
-- POST `/api/sweets`
-- GET `/api/sweets`
-- GET `/api/sweets/search`
-- POST `/api/sweets/:id/purchase`
-- POST `/api/sweets/:id/restock` (Admin)
-- DELETE `/api/sweets/:id` (Admin)
-
-AI USAGE
-- I used AI (CHATGPT) as a productivity and learning tool — mainly to understand architecture patterns, debug errors faster, and generate boilerplate.
-I always verified and modified the logic by myself, and all integration decisions were mine.
-
-
-##  Author & Contact
-
-**Anmol Kumar**  
-B.Tech – Electronics & Communication Engineering  
-📧 Email: anmolkumar4122002@gmail.com 
-
-
-## ▶️ How to Run Locally
-
-```bash
-git clone <your-repo-link>
-cd backend
-npm install
-node src/server.js
-
+A full-stack web application designed to manage a sweet shop’s inventory with secure authentication, real-time stock updates, and a clean user interface.
 
 ---
 
-##  Author & Contact
+##  Features
 
+- User registration and login with JWT authentication
+- Secure, protected backend APIs
+- Sweet inventory management
+- Purchase functionality with automatic stock reduction
+- Out-of-stock handling with disabled purchase button
+- Responsive dashboard UI
+- MongoDB-based data persistence
+
+---
+
+##  Tech Stack
+
+**Frontend**
+- React
+- JavaScript
+- HTML & CSS
+
+**Backend**
+- Node.js
+- Express.js
+
+**Database**
+- MongoDB
+
+**Authentication**
+- JSON Web Tokens (JWT)
+
+---
+
+##  Application Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Database (MongoDB)
+![Mongo](screenshots/mongodb.png)
+
+
+ 
+ ## Author & Contact
+ 
 **Anmol Kumar**  
 B.Tech – Electronics & Communication Engineering  
 📧 Email: anmolkumar4122002@gmail.com 
 
-THANK YOU
- 
 
+## ▶️ How to Run the Project Locally
+
+### Backend Setup
+```bash
+cd backend
+npm install
+node src/server.js
 

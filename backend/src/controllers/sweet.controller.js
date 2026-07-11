@@ -9,8 +9,7 @@ exports.addSweet = async (req, res) => {
     res.status(500).json({ message: 'Server error', error });
   }
 };
-
-
+ 
 
 exports.getSweets = async (req, res) => {
   try {
@@ -111,4 +110,3 @@ exports.deleteSweet = async (req, res) => {
     res.status(500).json({ message: 'Server error', error });
   }
 };
-

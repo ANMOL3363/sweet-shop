@@ -1,38 +1,92 @@
+#  Sweet Shop Management System
 
-# Sweet Shop Management System
-
-A full-stack web application designed to manage a sweet shop’s inventory with secure authentication, real-time stock updates, and a clean user interface.
-
+A full-stack Sweet Shop Management System built using the MERN stack that enables administrators and staff to manage sweets, inventory, and customer orders through a secure and responsive web application. The system provides JWT-based authentication, role-based access control, real-time inventory updates, and RESTful APIs for efficient shop management.
 ---
-
 ##  Features
 
-- User registration and login with JWT authentication
-- Secure, protected backend APIs
-- Sweet inventory management
-- Purchase functionality with automatic stock reduction
-- Out-of-stock handling with disabled purchase button
-- Responsive dashboard UI
-- MongoDB-based data persistence
+### Authentication & Security
+- Secure user registration and login
+- JWT-based authentication
+- Protected REST APIs
+- Password encryption using bcrypt
+- Role-based authorization (Admin & Staff)
+
+### Inventory Management
+- Add new sweets to inventory
+- Update sweet details
+- Delete sweets
+- View complete inventory
+- Automatic stock updates after purchases
+- Out-of-stock detection
+
+### Order Management
+- Place customer orders
+- Automatic inventory deduction
+- Order tracking and status management
+- Prevent purchases when stock is unavailable
+
+### Dashboard
+- Responsive and user-friendly interface
+- Inventory overview
+- Sweet management panel
+- Real-time stock availability
+- Secure access to protected resources
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
-**Frontend**
-- React
+### Frontend
+- React.js
 - JavaScript
-- HTML & CSS
+- HTML5
+- CSS3
 
-**Backend**
+### Backend
 - Node.js
 - Express.js
+- RESTful APIs
 
-**Database**
+### Database
 - MongoDB
+- Mongoose
 
-**Authentication**
-- JSON Web Tokens (JWT)
+### Authentication
+- JSON Web Token (JWT)
+- bcrypt
+
+### Tools
+- Git & GitHub
+- Postman
+- MongoDB Compass
+
+---
+
+##  Project Structure
+
+```
+Sweet-Shop/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── config/
+│   │   └── server.js
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
 
 ---
 
@@ -49,18 +103,59 @@ A full-stack web application designed to manage a sweet shop’s inventory with 
 
 
  
- ## Author & Contact
- 
-**Anmol Kumar**  
-B.Tech – Electronics & Communication Engineering  
-📧 Email: anmolkumar4122002@gmail.com 
+ ##  Installation
 
+### Clone the Repository
 
-## ▶️ How to Run the Project Locally
+```bash
+git clone https://github.com/ANMOL3363/sweet-shop
 
+cd sweet-shop
+```
+---
 ### Backend Setup
+
 ```bash
 cd backend
 npm install
-node src/server.js
+npm start
+```
 
+---
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+##  Authentication
+
+After logging in successfully, the application generates a JWT token that is used to access protected API routes.
+
+---
+
+##  Future Enhancements
+
+- Customer Management
+- Sales Analytics Dashboard
+- Invoice Generation
+- Payment Gateway Integration
+- Barcode Scanning
+- Image Upload for Sweets
+- Low Stock Notifications
+- Search, Filter & Pagination
+
+---
+
+##  Author
+
+**Anmol Kumar**
+
+B.Tech – Electronics & Communication Engineering
+
+ anmolkumar4122002@gmail.com

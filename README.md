@@ -1,65 +1,79 @@
-#  Sweet Shop Management System
+Sweet Shop Management System
 
 A full-stack Sweet Shop Management System built using the MERN stack that enables administrators and staff to manage sweets, inventory, and customer orders through a secure and responsive web application. The system provides JWT-based authentication, role-based access control, real-time inventory updates, and RESTful APIs for efficient shop management.
----
-##  Features
 
-### Authentication & Security
-- Secure user registration and login
-- JWT-based authentication
-- Protected REST APIs
-- Password encryption using bcrypt
-- Role-based authorization (Admin & Staff)
+##Features
 
-### Inventory Management
-- Add new sweets to inventory
-- Update sweet details
-- Delete sweets
-- View complete inventory
-- Automatic stock updates after purchases
-- Out-of-stock detection
+#Authentication & Security
 
-### Order Management
-- Place customer orders
-- Automatic inventory deduction
-- Order tracking and status management
-- Prevent purchases when stock is unavailable
+Secure user registration and login
+JWT-based authentication
+Protected REST APIs
+Password encryption using bcrypt
+Role-based authorization (Admin & Staff)
 
-### Dashboard
-- Responsive and user-friendly interface
-- Inventory overview
-- Sweet management panel
-- Real-time stock availability
-- Secure access to protected resources
 
----
+#Inventory Management
 
-## Tech Stack
+Add new sweets to inventory
+Update sweet details
+Delete sweets
+View complete inventory
+Automatic stock updates after purchases
+Out-of-stock detection
 
-### Frontend
-- React.js
-- JavaScript
-- HTML5
-- CSS3
 
-### Backend
-- Node.js
-- Express.js
-- RESTful APIs
+#Order Management
 
-### Database
-- MongoDB
-- Mongoose
+Place customer orders
+Automatic inventory deduction
+Order tracking and status management
+Prevent purchases when stock is unavailable
 
-### Authentication
-- JSON Web Token (JWT)
-- bcrypt
 
-### Tools
-- Git & GitHub
-- Postman
-- MongoDB Compass
+#Dashboard
 
+Responsive and user-friendly interface
+Inventory overview
+Sweet management panel
+Real-time stock availability
+Secure access to protected resources
+
+
+##Tech Stack
+
+#Frontend
+
+React.js
+JavaScript
+HTML5
+CSS3
+
+
+#Backend
+
+Node.js
+Express.js
+RESTful APIs
+
+
+#Database
+
+MongoDB
+Mongoose
+
+
+#Authentication
+
+JSON Web Token (JWT)
+bcrypt
+
+
+#Tools
+
+Git & GitHub
+Postman
+MongoDB Compass
 ---
 
 ##  Project Structure
@@ -85,10 +99,6 @@ Sweet-Shop/
 └── README.md
 ```
 
----
-
-
----
 
 ##  Application Screenshots
 
